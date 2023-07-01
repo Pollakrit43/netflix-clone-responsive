@@ -1,0 +1,36 @@
+.watch-text {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    padding: 2% 10%;
+    border-top: 10px solid rgb(35, 35, 35);
+}
+
+.watch-text h2 {
+    font-size: 3rem;
+}
+
+.watch-text p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .watch-text {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 2% 5%;
+    }
+
+    .watch-text h2 {
+        font-size: 2rem;
+    }
+
+    .watch-text p {
+        font-size: 1.25rem;
+        margin-top: 0.5rem;
+    }
+}
